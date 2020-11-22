@@ -1,0 +1,10 @@
+insert into pay.pay_user (user_id) values (100);
+insert into pay.pay_user (user_id) values (101);
+insert into pay.pay_user (user_id) values (102);
+insert into pay.pay_user (user_id) values (103);
+insert into pay.pay_user (user_id) values (104);
+insert into pay.pay_user (user_id) values (105);
+insert into pay.pay_user (user_id) values (106);
+insert into pay.pay_user (user_id) values (107);
+insert into pay.pay_user (user_id) values (108);
+insert into pay.pay_user (user_id) values (109);

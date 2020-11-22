@@ -1,0 +1,52 @@
+= 카카오페이 뿌리기 기능 API Guide
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:toc: left
+:toclevels: 4
+:sectnums:
+:sectlinks:
+:sectanchors:
+
+[[common]]
+== 공통 응답
+
+include::{snippets}/common/response-fields.adoc[]
+
+
+[[sprinkle]]
+== 뿌리기 API
+
+.http-request
+include::{snippets}/sprinkle/http-request.adoc[]
+.헤더 정보
+include::{snippets}/sprinkle/request-headers.adoc[]
+.요청 바디 정보
+include::{snippets}/sprinkle/request-fields.adoc[]
+.응답 필드 정보
+include::{snippets}/sprinkle/response-fields.adoc[]
+
+[[get]]
+== 받기 API
+
+.http-request
+include::{snippets}/getSprinkle/http-request.adoc[]
+.헤더 정보
+include::{snippets}/getSprinkle/request-headers.adoc[]
+.파라미터 정보
+include::{snippets}/getSprinkle/path-parameters.adoc[]
+.응답 필드 정보
+include::{snippets}/getSprinkle/response-fields.adoc[]
+
+
+[[lookup]]
+== 조회 API
+
+.http-request
+include::{snippets}/lookupSprinkle/http-request.adoc[]
+.헤더 정보
+include::{snippets}/lookupSprinkle/request-headers.adoc[]
+.파라미터 정보
+include::{snippets}/lookupSprinkle/path-parameters.adoc[]
+.응답 필드 정보
+include::{snippets}/lookupSprinkle/response-fields.adoc[]
